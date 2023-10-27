@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -43,12 +43,12 @@ export const experiencesData = [
     date: "2017 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Jr. FrontEnd Developer prueba",
+    location: "Zapopan, Jal.",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Design and development of a web application for investment portfolio management with Vue.JS, applying UI/UX design patterns.",
+    icon: React.createElement(FaVuejs),
+    date: "feb - oct 2023",
   },
 ] as const;
 
