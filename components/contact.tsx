@@ -7,6 +7,9 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { LuGraduationCap } from "react-icons/lu";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -33,42 +36,40 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        <a className="underline" href="mailto:cristopher.txt@gmail.com">
+          cristopher.txt@gmail.com
         </a>{" "}
-        or through this form.
       </p>
 
-      <form
-        className="mt-10 flex flex-col dark:text-black"
-        action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
+      <section className="mt-10 flex flex-col gap-4 items-center dark:text-black">
+        <a
+          className="bg-white w-2/5 p-4 text-gray-700 hover:text-gray-950 flex items-center justify-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.linkedin.com/in/devcris/"
+          target="_blank"
+        >
+          <BsLinkedin />
+          linkedin.com/in/devcris
+        </a>
 
-          if (error) {
-            toast.error(error);
-            return;
-          }
+        <a
+          className="bg-white w-2/5 p-4 text-gray-700 hover:text-gray-950 flex items-center justify-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://github.com/Cristopher-exe"
+          target="_blank"
+        >
+          <BsGithub />
+          Cristopher-exe
+        </a>
 
-          toast.success("Email sent successfully!");
-        }}
-      >
-        <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-          name="senderEmail"
-          type="email"
-          required
-          maxLength={500}
-          placeholder="Your email"
-        />
-        <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-          name="message"
-          placeholder="Your message"
-          required
-          maxLength={5000}
-        />
-        <SubmitBtn />
-      </form>
+        <a
+          className="bg-white w-2/5 p-4 text-gray-700 hover:text-gray-950 flex items-center justify-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="/miCv.pdf"
+          target="_blank"
+          download
+        >
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+      </section>
     </motion.section>
   );
 }
