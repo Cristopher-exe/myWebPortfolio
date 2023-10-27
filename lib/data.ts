@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import corpcommentImg from "@/public/ymanbrother.png";
+import rmtdevImg from "@/public/itihvac.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2017 - 2022",
   },
   {
-    title: "Jr. FrontEnd Developer prueba",
+    title: "Jr. FrontEnd Developer",
     location: "Zapopan, Jal.",
     description:
       "Design and development of a web application for investment portfolio management with Vue.JS, applying UI/UX design patterns.",
@@ -54,25 +54,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Capital Inversiones",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Web application for investment portfolio management, for clients and administrators.",
+    tags: ["Vuejs 3", "Vuetify", "Sass", "JavaScript", "Pinia"],
     imageUrl: corpcommentImg,
+    url: 'www.google.com',
   },
   {
-    title: "rmtDev",
+    title: "Iti Hvac Training",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Website for an HVAC school with interface of existing products in the physical store. [Developing]",
+    tags: ["Astro", "TypeScript", "Sass", 'HTML'],
     imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    url: null,
   },
 ] as const;
 
