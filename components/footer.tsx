@@ -7,7 +7,7 @@ export default function Footer() {
   let today = new Date().getFullYear();
 
   return (
-    <footer className="mb-10 flex flex-col gap-4 items-center justify-center text-center text-gray-500">
+    <footer className="mb-10 flex flex-col gap-4 justify-center text-center text-gray-500">
       <small className="mb-2 block text-xs">
         &copy; {today} Cristopher. All rights reserved.
       </small>
