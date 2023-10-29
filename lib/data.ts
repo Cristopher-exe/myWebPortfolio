@@ -59,7 +59,7 @@ export const projectsData = [
       "Web application for investment portfolio management, for clients and administrators.",
     tags: ["Vuejs 3", "Vuetify", "Sass", "JavaScript", "Pinia"],
     imageUrl: corpcommentImg,
-    url: 'www.google.com',
+    url: 'https://inversion.ymanbrothercapital.com/login',
   },
   {
     title: "Iti Hvac Training",
