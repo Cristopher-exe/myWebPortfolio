@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { HiExternalLink } from "react-icons/hi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -47,6 +48,16 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {url ? (
+              <a
+                href={url}
+                target="_blank"
+                className="flex flex-row items-center gap-1 mt-3  text-gray-700 dark:text-white/70 hover:underline"
+              >
+                View <HiExternalLink className="text-gray-700 dark:text-white/70" />
+              </a>
+
+          ) : null}
         </div>
 
         <Image
