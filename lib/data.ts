@@ -43,12 +43,12 @@ export const experiencesData = [
     date: "2017 - 2022",
   },
   {
-    title: "Jr. FrontEnd Developer",
+    title: "Jr. Full Stack Developer",
     location: "Zapopan, Jal.",
     description:
-      "Design and development of a web application for investment portfolio management with Vue.JS, applying UI/UX design patterns.",
+      "Design and development of a web application for investment portfolio management with Vue.JS, Vuetify, Laravel 9 and AWS",
     icon: React.createElement(FaVuejs),
-    date: "feb - oct 2023",
+    date: "feb 2022 - actual",
   },
 ] as const;
 
@@ -57,7 +57,7 @@ export const projectsData = [
     title: "Capital Inversiones",
     description:
       "Web application for investment portfolio management, for clients and administrators.",
-    tags: ["Vuejs 3", "Vuetify", "Sass", "JavaScript", "Pinia"],
+    tags: ["Vuejs 3", "Pinia", "AWS", "SQL", "Laravel 9", "Docker"],
     imageUrl: corpcommentImg,
     url: 'https://inversion.ymanbrothercapital.com/login',
   },
@@ -65,7 +65,7 @@ export const projectsData = [
     title: "Iti Hvac Training",
     description:
       "Website for an HVAC school with interface of existing products in the physical store. [Developing]",
-    tags: ["Astro", "TypeScript", "Sass", 'HTML'],
+    tags: ["Astro", "TypeScript", "Vercel", "Git", "GitHub Actions"],
     imageUrl: rmtdevImg,
     url: null,
   },
@@ -80,6 +80,9 @@ export const skillsData = [
   "React",
   'Vue.js',
   "Git",
-  "Python",
   'Figma',
+  'AWS',
+  'SQL',
+  'Docker',
+  'Laravel 9',
 ] as const;
