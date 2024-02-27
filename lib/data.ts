@@ -35,15 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Computer Systems Engineer",
-    location: "Tepic, Nay.",
-    description:
-      "Graduated in systems engineering, with a specialty in web development.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2017 - 2022",
-  },
-  {
-    title: "Jr. Full Stack Developer",
+    title: "Jr. Web Developer",
     location: "Zapopan, Jal.",
     description:
       "Design and development of a web application for investment portfolio management with Vue.JS, Vuetify, Laravel 9 and AWS",
