@@ -11,7 +11,12 @@ import CloseIcon from "@mui/icons-material/Close";
 import Typography from "@mui/material/Typography";
 import { TbPointFilled } from "react-icons/tb";
 
-const CustomDialog = ({ isOpen, onClose }) => {
+interface CustomDialogProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const CustomDialog = ({ isOpen, onClose}: CustomDialogProps) => {
   return (
     <Dialog
       onClose={onClose}
