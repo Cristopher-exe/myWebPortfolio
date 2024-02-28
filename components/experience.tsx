@@ -10,10 +10,23 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { LuMousePointerClick } from "react-icons/lu";
+import Dialog from "./dialog";
+import Button from "@mui/material/Button";
+import { LuExternalLink } from "react-icons/lu";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
@@ -21,7 +34,6 @@ export default function Experience() {
 
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
-
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
@@ -47,10 +59,21 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <a href="https://ymanbrothercapital.com/" target="_blank" className="font-xs flex flex-row items-center text-gray-700 dark:text-white/70 hover:underline cursor-pointer">{item.location}</a> 
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+
+              <a
+                className="flex flex-row items-center gap-1 mt-3  text-gray-700 dark:text-white/70 underline cursor-pointer"
+                onClick={handleClickOpen}
+              >
+                More information{" "}
+                <LuMousePointerClick className="text-gray-700 dark:text-white/70" />
+              </a>
+
+              <Dialog isOpen={open} onClose={handleClose} />
+
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
