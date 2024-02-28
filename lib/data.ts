@@ -39,7 +39,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Jr. Web Developer",
+    title: "Jr. Full Stack Developer",
     location: "Yman Brother Capital",
     description:
       "Developing key projects for the company and implementing modern technologies and management of services in the AWS cloud.",

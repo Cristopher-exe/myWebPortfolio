@@ -33,7 +33,7 @@ const CustomDialog = ({ isOpen, onClose}: CustomDialogProps) => {
       }}
     >
       <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-        Work experience
+        Work Experience
       </DialogTitle>
       <IconButton
         aria-label="close"
@@ -49,170 +49,140 @@ const CustomDialog = ({ isOpen, onClose}: CustomDialogProps) => {
       </IconButton>
       <DialogContent dividers>
         <Typography gutterBottom>
-          Trabaje como Jr. Frontend Developer, liderando proyectos clave como la
-          plataforma <span className="font-bold">YB Investment</span> y la
-          página web de la inmobiliaria{" "}
-          <span className="font-bold">Maya Estate Investment</span>.
-          Implementando tecnologías modernas y gestión de servicios en la nube
-          de AWS.
+           <span className="font-bold">Project: YB Capital Investment</span>
         </Typography>
 
         <Typography className="mt-5" gutterBottom>
-          <p>
-            Lideré el diseño e implementación de la plataforma "YB Investment",
-            utilizando tecnologías como:
-          </p>
+          <span>Technologies:</span>
           <ul>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Vue.js 3</span>
+                <span>Front-End: Vue.js 3, Vuetify, Sass, Vue Test Utils & UI/UX best practices</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Pinia</span>
+                <span>Back-End: Laravel 9, JSON:API, Docker</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Vuetify</span>
+                <span>Infrastructure: AWS (S3, CloudFront, Load Balancer, EC2, ECR, ECS, RDS , IAM and VPC).</span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span> Other: GIT, GitHub Actions</span>
               </div>
             </li>
           </ul>
 
-          <p>
-            Para desplegar el Frontend de la aplicación usamos los siguientes
-            servicios:
-          </p>
-
-          <ul>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>AWS S3</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>AWS CloudFront</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>GitHub Actions</span>
-              </div>
-            </li>
-          </ul>
-        </Typography>
-
-        <Typography className="mt-5" gutterBottom>
-          <p>
-            Lideré el diseño e implementación de la página web de la
-            inmobiliaria Maya Estate Investment, utilizando:
-          </p>
+          <Typography className="mt-5" gutterBottom>
+          <span>Responsabilities:</span>
+          </Typography>
 
           <ul>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>React</span>
+                <span>Design and development of the Front-End of the YB Capital Investment application</span>
               </div>
             </li>
-
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Redux</span>
+                <span>Writing reusable, testable and efficient code</span>
               </div>
             </li>
-
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Sass</span>
+                <span>Design, implement and maintain features and module</span>
               </div>
             </li>
-
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS S3</span>
-              </div>
-            </li>
-
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>AWS CloudFront</span>
-              </div>
-            </li>
-
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>AGitHub Actions</span>
+                <span>Administration of AWS services</span>
               </div>
             </li>
           </ul>
         </Typography>
 
+        <hr className="my-10"/>
+
+        <Typography gutterBottom>
+           <span className="font-bold">Project: Maya Estate Investment</span>
+        </Typography>
+
         <Typography className="mt-5" gutterBottom>
-          <p>
-          Además, mi rol incluía la gestión y mantenimiento de los servicios en la nube de AWS, como:
-          </p>
+          <span>Technologies:</span>
+          <ul>
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Front-End: React.JS 18, Redux, Sass</span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Deploy: AWS (S3, CloudFront and IAM ), GIT and GitHub Actions.</span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Other: SEO best practices & Google Analitys</span>
+              </div>
+            </li>
+          </ul>
+
+          <Typography className="mt-5" gutterBottom>
+          <span>Responsabilities:</span>
+          </Typography>
 
           <ul>
-          <li className="flex">
+            <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS Billing and Costs</span>
+                <span>Design and development of the website</span>
               </div>
             </li>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS Elastic compute cloud (EC2)</span>
+                <span>Writing reusable, testable and efficient code</span>
               </div>
             </li>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS Elastic Container Service (ECS)</span>
+                <span>Apply good SEO practices</span>
               </div>
             </li>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS Elastic Container Registry (ECR)</span>
+                <span>Implementation and administration of Google Analytics</span>
               </div>
             </li>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>AWS Relational Database Service (RDS)</span>
+                <span>Administration of AWS services</span>
               </div>
             </li>
           </ul>
-        </Typography>
-
-        <Typography className="mt-5" gutterBottom>
-          <p>
-          En resumen, mi experiencia en&nbsp;
-          <a
-                href="https://ymanbrothercapital.com/"
-                target="_blank"
-                className="underline"
-              >
-                Yman Brother Capital
-              </a> me ha permitido fortalecer mis habilidades técnicas en el desarrollo web y la gestión de servicios en la nube, contribuyendo significativamente al éxito de la empresa al mejorar la calidad, la escalabilidad y la seguridad de sus productos y servicios digitales.
-          </p>
         </Typography>
 
       </DialogContent>
