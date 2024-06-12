@@ -49,140 +49,62 @@ const CustomDialog = ({ isOpen, onClose}: CustomDialogProps) => {
       </IconButton>
       <DialogContent dividers>
         <Typography gutterBottom>
-           <span className="font-bold">Project: YB Capital Investment</span>
+           <span className="font-bold">Jr. Web Developer | YB Capital Investment</span>
         </Typography>
 
         <Typography className="mt-5" gutterBottom>
-          <span>Technologies:</span>
           <ul>
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Front-End: Vue.js 3, Vuetify, Sass, Vue Test Utils & UI/UX best practices</span>
+                <span>Diseño, desarrollo y mantenimiento de aplicaciones web multiplataforma.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Back-End: Laravel 9, JSON:API, Docker</span>
+                <span>Escritura de código limpio, reusable, testable y eficiente.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Infrastructure: AWS (S3, CloudFront, Load Balancer, EC2, ECR, ECS, RDS , IAM and VPC).</span>
+                <span>Implementación de funcionalidades y módulos según las especificaciones.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span> Other: GIT, GitHub Actions</span>
+                <span>Administración de servicios en AWS para garantizar la disponibilidad y seguridad de las aplicaciones.</span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Aplicación de mejores prácticas de UI/UX y SEO para una experiencia de usuario óptima.</span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Diseño de experiencias digitales útiles y elegantes en las plataformas web y móviles. </span>
+              </div>
+            </li>
+
+            <li className="flex">
+              <div className="flex items-center">
+                <TbPointFilled className="mr-2" />
+                <span>Fomentar la colaboración y la coherencia entre los equipos al trabajo en estrecha colaboración con gerentes de producto, diseñadores e ingenieros.</span>
               </div>
             </li>
           </ul>
 
-          <Typography className="mt-5" gutterBottom>
-          <span>Responsabilities:</span>
-          </Typography>
-
-          <ul>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Design and development of the Front-End of the YB Capital Investment application</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Writing reusable, testable and efficient code</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Design, implement and maintain features and module</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Administration of AWS services</span>
-              </div>
-            </li>
-          </ul>
-        </Typography>
-
-        <hr className="my-10"/>
-
-        <Typography gutterBottom>
-           <span className="font-bold">Project: Maya Estate Investment</span>
-        </Typography>
-
-        <Typography className="mt-5" gutterBottom>
-          <span>Technologies:</span>
-          <ul>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Front-End: React.JS 18, Redux, Sass</span>
-              </div>
-            </li>
-
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Deploy: AWS (S3, CloudFront and IAM ), GIT and GitHub Actions.</span>
-              </div>
-            </li>
-
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Other: SEO best practices & Google Analitys</span>
-              </div>
-            </li>
-          </ul>
-
-          <Typography className="mt-5" gutterBottom>
-          <span>Responsabilities:</span>
-          </Typography>
-
-          <ul>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Design and development of the website</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Writing reusable, testable and efficient code</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Apply good SEO practices</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Implementation and administration of Google Analytics</span>
-              </div>
-            </li>
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Administration of AWS services</span>
-              </div>
-            </li>
-          </ul>
+          
         </Typography>
 
       </DialogContent>
