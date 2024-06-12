@@ -62,7 +62,7 @@ export default function Contact() {
 
         <a
           className="bg-white w-64 min-w-min p-4 text-gray-700 hover:text-gray-950 flex items-center justify-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/CV_4_0.pdf"
+          href="/CV_5.pdf"
           target="_blank"
           download
         >

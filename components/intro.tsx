@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Cristopher Canales.</span> Front-End Developer{" "}
+        <span className="font-bold">Cristopher Canales.</span> Web Developer{" "}
         
       </motion.h1>
 
@@ -98,7 +98,7 @@ export default function Intro() {
         </a> */}
 
         <Link
-          href="/CV_4_0.pdf"
+          href="/CV_5.pdf"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:bg-white/20"
           target="_blank"
         >
