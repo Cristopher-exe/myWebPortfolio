@@ -57,51 +57,39 @@ const CustomDialog = ({ isOpen, onClose}: CustomDialogProps) => {
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Diseño, desarrollo y mantenimiento de aplicaciones web multiplataforma.</span>
+                <span>Desarrollé y diseñé aplicaciones web centradas en la experiencia del usuario, utilizando Vue.js y Next.js para optimizar rendimiento y escalabilidad.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Escritura de código limpio, reusable, testable y eficiente.</span>
+                <span> Implementé y gestioné la arquitectura frontend de múltiples proyectos, asegurando la correcta integración con APIs y la seguridad en el manejo de datos.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Implementación de funcionalidades y módulos según las especificaciones.</span>
+                <span>Apliqué mejores prácticas de UI/UX y SEO, logrando interfaces intuitivas y mejorando el posicionamiento en buscadores.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Administración de servicios en AWS para garantizar la disponibilidad y seguridad de las aplicaciones.</span>
+                <span>Automatizé procesos de despliegue y mantuve la infraestructura en AWS, utilizando S3, IAM y GitHub Actions para asegurar la alta disponibilidad y eficiencia.</span>
               </div>
             </li>
 
             <li className="flex">
               <div className="flex items-center">
                 <TbPointFilled className="mr-2" />
-                <span>Aplicación de mejores prácticas de UI/UX y SEO para una experiencia de usuario óptima.</span>
+                <span> Supervisé el mantenimiento, actualizaciones y optimización de las aplicaciones web, asegurando su rendimiento continuo y adaptación a nuevas necesidades del negocio.</span>
               </div>
             </li>
 
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Diseño de experiencias digitales útiles y elegantes en las plataformas web y móviles. </span>
-              </div>
-            </li>
 
-            <li className="flex">
-              <div className="flex items-center">
-                <TbPointFilled className="mr-2" />
-                <span>Fomentar la colaboración y la coherencia entre los equipos al trabajo en estrecha colaboración con gerentes de producto, diseñadores e ingenieros.</span>
-              </div>
-            </li>
           </ul>
 
           

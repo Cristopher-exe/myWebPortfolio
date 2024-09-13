@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        I am a Systems Engineer from the Tepic Technological Institute, specialized in web development, with 1+ year of{" "}
+        I am a Systems Engineer from the Tepic Technological Institute, specialized in web development, with 2 year of{" "}
         <span className="underline">work</span> experience, I am characterized
         as a very <span className="font-medium italic">proactive</span>,
         creative and critical person both professionally and personally. I love

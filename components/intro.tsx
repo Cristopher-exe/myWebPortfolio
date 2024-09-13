@@ -98,7 +98,7 @@ export default function Intro() {
         </a> */}
 
         <Link
-          href="/CV_5.pdf"
+          href="/Cristopher_Canales_CV_Ingles.pdf"
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-90 active:scale-90 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:bg-white/20"
           target="_blank"
         >

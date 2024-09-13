@@ -44,7 +44,7 @@ export const experiencesData = [
     description:
       "Developing key projects for the company and implementing modern technologies and management of services in the AWS cloud.",
     icon: React.createElement(FaVuejs),
-    date: "feb 2023 - actual",
+    date: "feb 2023 - ago 2024",
   },
 ] as const;
 
@@ -61,7 +61,7 @@ export const projectsData = [
     title: "Maya Estate Inv.",
     description:
       "Collective funding platform that allows investing in real estate projects in Mexico.",
-    tags: ["React", "Redux","AWS S3", "AWS CF", "GitHub Actions"],
+    tags: ["Next.Js", "Redux","AWS S3", "AWS CF", "GitHub Actions"],
     imageUrl: rmtdevImg,
     url: "https://mayaestateinvestment.com/",
   },
